@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ReWebClient:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ReWebClient</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ReWebClient-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ReWebClient:war exploded" />
+    </root>
+  </artifact>
+</component>
